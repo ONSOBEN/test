@@ -1,0 +1,40 @@
+
+
+.title {
+	@apply text-2xl font-semibold text-gray-800 dark:text-gray-100 text-center mb-2;
+}
+
+.label {
+	@apply block mb-2 text-sm font-medium text-gray-900 dark:text-white;
+}
+
+.input {
+	@apply bg-gray-50 hover:bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-[6px] outline-lms-gray-80 block w-full p-2;
+}
+
+.form {
+	@apply max-w-6xl  mx-auto bg-white;
+}
+
+.error {
+	@apply text-red-500 text-sm mt-1;
+}
+
+.button {
+	@apply text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full  sm:w-auto px-5 py-2.5 text-center
+}
+
+.inputContainer {
+	@apply mb-5 w-auto
+}
+
+.imageContainer{
+	@apply w-[100px] h-[100px] rounded-full
+}
+.tab {
+	@apply dark:text-gray-300 dark:hover:text-white bg-white rounded-full border border-lms-primary h-[50px] w-[50px] text-[32px] font-bold text-lms-primary flex items-center justify-center text-center;
+}
+
+.activeTab {
+	@apply bg-lms-primary text-white;
+}

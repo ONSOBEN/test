@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Moul&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+.truncate-lines-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  max-height: 4.5em;
+  text-overflow: ellipsis;
+}
+
+.truncate-lines-4 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 4;
+  max-height: 4.5em;
+  text-overflow: ellipsis;
+}
+
+.truncate-lines-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  max-height: 4.5em;
+  text-overflow: ellipsis;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: var(--font-inter), var(--font-suwannaphum), sans-serif !important;
+}
+
+/* styles/globals.css */
+:root {
+  --font-moul: 'Moul', sans-serif;
+}
+
+
+/* styles/component.css */
+.moul-font {
+  font-family: var(--font-moul);
+}
+
+h-khmer {
+  font-family: var(--font-Moul-Regular);
+}
+
+
+
+/* Add these styles to make the header sticky */
+.sticky-header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.custom-icon-size {
+  width: 24px;
+  height: 24px;
+}
+
+.clip-path-haft-square {
+  clip-path: polygon(93% 0, 93% 100%, 0 57%);
+
+}
+
+.clip-path-haft-border {
+  clip-path: polygon(0 1%, 0 0, 100% 99%, 100% 100%);
+
+}
+
+.clip-path-haft-border-red {
+  clip-path: polygon(0 1%, 0 0, 100% 99%, 100% 100%);
+
+}
+
+.clip-path-haft-border-green {
+  clip-path: polygon(38% 34%, 61% 0, 100% 0, 100% 95%);
+
+}
+
+
+.tab {
+  /* Add your default tab styles here */
+  border: 1px solid #3b82f6; /* Example border color */
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #3b82f6; /* Example text color */
+  background-color: white;
+}
+
+.activeTab {
+  background-color: #3b82f6; /* Example blue color */
+  color: white;
+}
+
+
+
+
+
